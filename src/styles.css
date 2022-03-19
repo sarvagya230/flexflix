@@ -1,0 +1,67 @@
+*{
+    margin: 0ch;
+    overflow-x: hidden;
+    
+}
+.loaders{
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background: #0f0f0f;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+    color:#34c09d;
+    font-size: xx-large;
+    padding-left: 5%;
+   
+}
+.signUp{
+    width: 30vw;
+    background: #0f0f0f;
+    height: 70vh;
+    text-align: center;
+    top:auto;
+    align-content: center !important;
+    overflow: hidden;
+    min-width: 306px;
+    position: fixed;
+    max-width: 900px;
+    max-height: 800px;
+   
+
+}
+.paper{
+ display: block;
+ position: absolute;
+ margin-left: 30%;
+}
+@media (max-width:800px) {
+    .paper{
+        left: 40px;
+    }
+    
+}
+img:focus{
+    outline: none
+}
+.showcase{
+    width: 100vw;
+    height: 60vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.nav{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    z-index: 1;
+    margin: bottom 0;
+}
